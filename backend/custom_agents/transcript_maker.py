@@ -38,8 +38,8 @@ from meeting_store import save_meeting_url
 YOUTUBE_API_URL = "https://youtubecc-423771082043.us-central1.run.app"
 ZOOM_API_URL = "https://zoom-transcript-scraper-423771082043.us-central1.run.app"
 
-SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://sjgbaigjurwbszvphold.supabase.co")
-SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_KEY", "sb_publishable_OZW98EuSju2oK9rWNj9YSQ_BBz9b38w")
+SUPABASE_URL = os.environ.get("SUPABASE_URL")
+SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_KEY")
 
 supabase: Client | None = None
 if SUPABASE_URL and SUPABASE_KEY:
