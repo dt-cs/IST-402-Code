@@ -1,6 +1,6 @@
 # Project Overview
 
-MeetSumm is a meeting analysis and summarization platform that leverages AI to extract structured insights from meeting transcripts. The system integrates **Zoom/YouTube transcript extraction**, **AI summarization**, and **vector search** for actionable insights. 
+Our meeting analysis and summarization application leverages AI to extract structured insights from meeting transcripts. The system integrates **Zoom/YouTube transcript extraction**, **AI summarization**, and **vector search** for actionable insights. 
 
 The architecture is divided into two main layers:
 
