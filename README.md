@@ -52,3 +52,12 @@ The architecture is divided into two main layers:
 - **Tabbed interface** for raw transcript vs. structured insights.
 - **RAG-enabled search** for meeting content.
 - **Extensible architecture** for adding new meeting sources or analysis tools.
+
+---
+
+## Acknowledgements
+
+This project was developed with assistance from modern AI tools that supported debugging, and code generation throughout the development process.
+
+- **ChatGPT (OpenAI)**
+- **Google Gemini** 
