@@ -55,6 +55,38 @@ The architecture is divided into two main layers:
 
 ---
 
+## Roles & Responsibilities
+
+### **Deebak Tamilmani — Backend & AI Pipeline Lead**
+- Builds and maintains the backend architecture, including FastAPI services, endpoints, and data flow.
+- Implements all backend logic for handling incoming URLs, triggering the transcription workflow, and orchestrating agent tool calls.
+- Manages the integration of AI models for summarization, action-item extraction, metadata detection, and vector database updates.
+- Handles database interactions, thread/session management, and backend-side error handling.
+- Ensures the backend delivers clean, structured outputs for the frontend to render.
+- Oversees the authentication and ChatKit session backend logic.
+
+
+### **Andreea — Frontend UI/UX & Chat Interface Lead**
+- Designs and implements the full frontend interface using React and ChatKit SDK.
+- Creates the user journey for entering URLs, receiving AI responses, and navigating between transcript, summary, and action items.
+- Implements the chat UI, collapsible components, and interactive elements used throughout the app.
+- Ensures seamless streaming of messages and consistent rendering of AI outputs.
+- Works closely with backend output formats to build user-friendly UI experiences.
+- Responsible for styling, component structure, and overall UX coherence.
+
+
+### **Tsehynesh — RAG Pipeline, API Fetch Design & Summary UI Lead**
+- Builds and maintains the Retrieval-Augmented Generation (RAG) workflow: vector storage, embeddings, and search logic.
+- Implements frontend API fetch designs for pulling summaries, action items, and transcript insights from the backend.
+- Develops the frontend **Summary Panel**, including structured display for:
+  - overall meeting summary  
+  - key insights  
+  - tasks and deadlines  
+  - participants and metadata
+- Ensures the vector database results are properly formatted and surfaced in the UI.
+
+---
+
 ## Acknowledgements
 
 This project was developed with assistance from modern AI tools that supported debugging, and code generation throughout the development process.
