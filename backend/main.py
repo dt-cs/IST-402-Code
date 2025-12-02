@@ -19,8 +19,8 @@ from meeting_store import get_meeting_url
 
 load_dotenv()
 
-SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://sjgbaigjurwbszvphold.supabase.co")
-SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_KEY", "sb_publishable_OZW98EuSju2oK9rWNj9YSQ_BBz9b38w")
+SUPABASE_URL = os.environ.get("SUPABASE_URL")
+SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_KEY")
 
 if not SUPABASE_URL or not SUPABASE_KEY:
     print("⚠️ WARNING: Supabase Keys missing.")
