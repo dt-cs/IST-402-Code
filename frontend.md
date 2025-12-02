@@ -1,4 +1,4 @@
-# MeetSumm Frontend Architecture
+# Frontend Architecture
 
 The frontend is a **React/TypeScript** application designed for interacting with AI-driven meeting analysis.
 
