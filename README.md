@@ -55,7 +55,7 @@ The architecture is divided into two main layers:
 
 ---
 
-## Roles & Responsibilities
+## 4. Roles & Responsibilities
 
 ### **Deebak Tamilmani — Backend & AI Pipeline Lead**
 - Builds and maintains the backend architecture, including FastAPI services, endpoints, and data flow.
